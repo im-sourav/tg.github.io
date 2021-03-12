@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TatrisGame</title>
+    <!-- <link rel="shortcut icon" type="image/png" href="bg.png"> -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="TetirisPieces.js" defer></script>
+    <script src="piece&proto.js" defer></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <sourav id="Button">Start!</sourav>
+    <div
+      id="tuchScrin"
+      ontouchstart="start()"
+      ontouchend="end()"
+    ></div>
+
+    <div
+      id="tuchScrin2"
+      ontouchstart="start1()"
+      ontouchend="end()"
+    ></div>
+
+    <div
+      id="tuchScrin3"
+      ontouchstart="start2()"
+      ontouchend="end()"
+    ></div>
+
+    <div class="me"></div>
+    <p class="name">Made By Sourav</p>
+    <div class="all">
+      <div class="contaner">
+        <div class="textButton">
+          <p class="next">Next Piece</p>
+          <p class="SCORE">Score : 0</p>
+        </div>
+        <canvas id="canvas2" width="160" height="160"></canvas>
+        <canvas id="canvas" width="500" height="1000"></canvas>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- Sourav -->
